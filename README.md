@@ -1,5 +1,5 @@
-# se_dvorak_ep (Swedish dvorak: english programmer edition)
-Swedish dvorak layout for programmers, inspired by svorak a5 http://aoeu.info/s/dvorak/svorak
+# Swedish dvorak: english programmer
+Swedish dvorak layout for programmers who mainly communicate in English, inspired by svorak a5 http://aoeu.info/s/dvorak/svorak
 This will change quite a lot in the coming weeks.
 ## Installation
 It is easiest to overwrite the old layout file, but make a backup first!
