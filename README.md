@@ -16,4 +16,8 @@ setxkbmap se dvorak_ep
 `åäö` are downprioritized in favor of `'.,`. I mostly program or write in english, no reason for `åäö` to be in very good locations.
 Other than that, most changes are to the keys accessed with `altgr`.
 `-` and `_` are on `altgr + t` and `altgr + h` respectively. I use them often and therefore they should have high priority.
-Image of layout hopefully coming soon.
+
+## Image
+![Layout](layout.png "l2 layout")
+### TODO
+Generate image with some nicer command than `xkbprint -ll 2 :0.0 -o layout.ps; gs -dSAFER -dEPSCrop -r600 -sDEVICE=pngalpha -o layout.png layout.ps; mogrify -rotate "-90" layout.png; rm layout.ps`
