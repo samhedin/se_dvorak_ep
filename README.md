@@ -12,10 +12,10 @@ sudo cp dvorakep /usr/share/X11/xkb/symbols/se
 setxkbmap se dvorak_ep
 ```
 
-## Differences with Svorak a5
+## Differences with Svorak a5/Dvorak
 - `åäö` are downprioritized in favor of `'.,` since I mostly write code or in English.
-- r and l have changed places. Vim bindings work surprisingly well with dvorak, with the exception of L (go right). In dvorak L is bound to `right pinky top right` by default, which is just painful. This small adjustment swithes L to `right ring-finger up` which is much more comfortable.
-- Other than that, most changes are to the keys accessed with `altgr`.
+- r and l have swapped places. Vim bindings work surprisingly well with dvorak, with the exception of L (go right). In dvorak L is bound to `right pinky top right` by default, which is just painful. This small adjustment swithes L to `right ring-finger up` which is much more comfortable.
+- Other than that, most changes are to the keys accessed with `altgr` based on how much I use them.
 ## Images
 ### When altgr is held down
 ![Layout l2](layout2.png "l2 layout")
