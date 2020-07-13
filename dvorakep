@@ -335,7 +335,7 @@ xkb_symbols "dvorak_ep" {
 	key <AD01> { [ apostrophe, asterisk,   asterisk,            none ] };
 	key <AD02> { [ period,     colon,      colon,               none ] };
 	key <AD03> { [ comma,      semicolon,  semicolon,           none ] };
-	key <AD04> { [ p,          P,          bracketright,        none ] };
+	key <AD04> { [ p,          P,                  none ] };
 	key <AD05> { [ y,          Y,          dollar,              none ] };
 	key <AD06> { [ f,          F,          quotedbl,            none ] };
 	key <AD07> { [ g,          G,          question,            none ] };
@@ -353,11 +353,11 @@ xkb_symbols "dvorak_ep" {
 	key <AC06> { [ d,          D,          bar,                  none ] };
 	key <AC07> { [ h,          H,          underscore,           none ] };
 	key <AC08> { [ t,          T,          minus,                none ] };
-	key <AC09> { [ n,          N,          quotedbl,             none ] };
-	key <AC10> { [ s,          S,          slash,                none ] };
+	key <AC09> { [ n,          N,          slash,             none ] };
+	key <AC10> { [ s,          S,                          none ] };
 	key <AC11> { [ adiaeresis, Adiaeresis, braceright,           none  ] };
 
-	key <AB01> { [ bracketright, bracketleft, bracketleft,      none ] }; # period, colon, colon
+	key <AB01> { [ bracketleft, bracketright, bracketright,      none ] };
 	key <AB02> { [ q,          Q,          equal,               none ] };
 	key <AB03> { [ j,          J,          at,                  none ] };
 	key <AB04> { [ k,          K,          exclam,              none ] };
@@ -366,10 +366,8 @@ xkb_symbols "dvorak_ep" {
 	key <AB07> { [ m,          M,          grave,               none ] };
 	key <AB08> { [ w,          W,          asciitilde,             none ] };
 	key <AB09> { [ v,          V,          asciicircum, none ] };
-	key <AB10> { [ z,          Z,          guillemotleft,       none ] };
-
-	key <BKSL> { [ odiaeresis, Odiaeresis, bracketleft,         none ] };
-
+	key <AB10> { [ z,          Z,                 none ] };
+	key <BKSL> { [ odiaeresis, Odiaeresis,          none ] };
 };
 partial alphanumeric_keys
 xkb_symbols "dvorak_a5" {

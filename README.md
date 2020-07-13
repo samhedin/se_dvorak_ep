@@ -25,4 +25,4 @@ Other than that, most changes are to the keys accessed with `altgr`.
 ![Layout l1](layout1.png "l1 layout")
 
 ### TODO
-Make images not look like shit, preferable show all levels in one image.
+Make images not look like shit, preferably show all levels in one image.
