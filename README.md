@@ -13,10 +13,9 @@ setxkbmap se dvorak_ep
 ```
 
 ## Differences with Svorak a5
-`åäö` are downprioritized in favor of `'.,`. I mostly program or write in english, no reason for `åäö` to be in very good locations.
-Other than that, most changes are to the keys accessed with `altgr`.
-`-` and `_` are on `altgr + t` and `altgr + h` respectively. I use them often and therefore they should have high priority.
-
+- `åäö` are downprioritized in favor of `'.,` since I mostly write code or in English.
+- r and l have changed places. Vim bindings work surprisingly well with dvorak, with the exception of L (go right). In dvorak L is bound to `right pinky top right` by default, which is just painful. This small adjustment swithes L to `right ring-finger up` which is much more comfortable.
+- Other than that, most changes are to the keys accessed with `altgr`.
 ## Images
 ### When altgr is held down
 ![Layout l2](layout2.png "l2 layout")

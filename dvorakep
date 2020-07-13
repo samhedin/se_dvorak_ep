@@ -340,8 +340,8 @@ xkb_symbols "dvorak_ep" {
 	key <AD06> { [ f,          F,          quotedbl,            none ] };
 	key <AD07> { [ g,          G,          question,            none ] };
 	key <AD08> { [ c,          C,          ampersand,           none ] };
-	key <AD09> { [ r,          R,          less,                none ] };
-	key <AD10> { [ l,          L,          greater,             none ] };
+	key <AD09> { [ l,          L,          less,                none ] };
+	key <AD10> { [ r,          R,          greater,             none ] };
 	key <AD11> { [ aring,      Aring,                           none ] };
 	key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum  ]	}; #dead_diaeresis, dead_circumflex, dead_ailde
 
