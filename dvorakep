@@ -332,8 +332,8 @@ xkb_symbols "dvorak_ep" {
 
 	key <AE12> { [ dead_acute, dead_grave, plusminus,           none ] };
 
-	key <AD01> { [ apostrophe, asterisk,   asterisk,            none ] }; #å
-	key <AD02> { [ period,     colon,      colon,               none ] }; #ä
+	key <AD01> { [ apostrophe, asterisk,   asterisk,            none ] };
+	key <AD02> { [ period,     colon,      colon,               none ] };
 	key <AD03> { [ comma,      semicolon,  semicolon,           none ] };
 	key <AD04> { [ p,          P,          bracketright,        none ] };
 	key <AD05> { [ y,          Y,          dollar,              none ] };
@@ -342,7 +342,7 @@ xkb_symbols "dvorak_ep" {
 	key <AD08> { [ c,          C,          ampersand,           none ] };
 	key <AD09> { [ r,          R,          less,                none ] };
 	key <AD10> { [ l,          L,          greater,             none ] };
-	key <AD11> { [ aring,      Aring,                  none ] };
+	key <AD11> { [ aring,      Aring,                           none ] };
 	key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum  ]	}; #dead_diaeresis, dead_circumflex, dead_ailde
 
 	key <AC01> { [ a,          A,          numbersign,           none ] };
