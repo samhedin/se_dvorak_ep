@@ -24,4 +24,4 @@ Other than that, most changes are to the keys accessed with `altgr`.
 `xkbprint -ll 2 :0.0 -o layout2.ps; gs -dSAFER -dEPSCrop -r600 -sDEVICE=pngalpha -o layout2.png layout2.ps; mogrify -flatten -rotate "-90" layout2.png; rm layout2.ps;`
 ![Layout l2](layout1.png "l2 layout")
 ### TODO
-Generate image with some nicer command than `xkbprint -ll 2 :0.0 -o layout.ps; gs -dSAFER -dEPSCrop -r600 -sDEVICE=pngalpha -o layout.png layout.ps; mogrify -rotate "-90" layout.png; rm layout.ps`
+Make images not look like shit
