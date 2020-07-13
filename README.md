@@ -18,8 +18,11 @@ Other than that, most changes are to the keys accessed with `altgr`.
 `-` and `_` are on `altgr + t` and `altgr + h` respectively. I use them often and therefore they should have high priority.
 
 ## Images
+### When altgr is held down
 ![Layout l2](layout2.png "l2 layout")
+
+### Normal/Shift
 ![Layout l1](layout1.png "l1 layout")
 
 ### TODO
-Make images not look like shit
+Make images not look like shit, preferable show all levels in one image.
