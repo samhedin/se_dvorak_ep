@@ -18,10 +18,10 @@ setxkbmap se dvorak_ep
 - Other than that, most changes are to the keys accessed with `altgr` based on how much I use them.
 ## Images
 ### When altgr is held down
-![Layout l2](layout2.png "l2 layout")
+![Layout l2](imgs/layout2.png "l2 layout")
 
 ### Normal/Shift
-![Layout l1](layout1.png "l1 layout")
+![Layout l1](imgs/layout1.png "l1 layout")
 
 ### TODO
 Make images not look like shit, preferably show all levels in one image.
