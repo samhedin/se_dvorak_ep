@@ -1,4 +1,4 @@
-# se_dvorak_ep
+# se_dvorak_ep (Swedish dvorak: english programmer edition)
 Swedish dvorak layout for programmers, inspired by svorak a5 http://aoeu.info/s/dvorak/svorak
 This will change quite a lot in the coming weeks.
 ## Installation
