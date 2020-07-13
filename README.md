@@ -22,6 +22,6 @@ Other than that, most changes are to the keys accessed with `altgr`.
 ![Layout l1](layout1.png "l1 layout")
 
 `xkbprint -ll 2 :0.0 -o layout2.ps; gs -dSAFER -dEPSCrop -r600 -sDEVICE=pngalpha -o layout2.png layout2.ps; mogrify -flatten -rotate "-90" layout2.png; rm layout2.ps;`
-![Layout l2](layout1.png "l2 layout")
+![Layout l2](layout2.png "l2 layout")
 ### TODO
 Make images not look like shit
