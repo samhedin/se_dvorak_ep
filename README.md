@@ -3,7 +3,7 @@ Swedish dvorak layout for programmers who mainly communicate in English, inspire
 
 This layout will change quite a lot in the coming weeks.
 ## Installation
-It is easiest to overwrite the old layout file, but make a backup first!
+It is easiest to overwrite the old layout file, but make a backup first! The layout file in this repo contains all other layouts already, so you won't lose anything.
 ``` bash
 git clone git@github.com:samhedin/se_dvorak_ep.git
 cd se_dvorak_ep
