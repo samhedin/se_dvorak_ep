@@ -340,21 +340,21 @@ xkb_symbols "dvorak_ep" {
 	key <AD06> { [ f,          F,          quotedbl,            none ] };
 	key <AD07> { [ g,          G,          question,            none ] };
 	key <AD08> { [ c,          C,          ampersand,           none ] };
-	key <AD09> { [ l,          L,          less,                none ] };
-	key <AD10> { [ r,          R,          greater,             none ] };
+	key <AD09> { [ l,          L,                          none ] };
+	key <AD10> { [ r,          R,                       none ] };
 	key <AD11> { [ aring,      Aring,                           none ] };
 	key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum  ]	}; #dead_diaeresis, dead_circumflex, dead_ailde
 
 	key <AC01> { [ a,          A,          numbersign,           none ] };
-	key <AC02> { [ o,          O,          braceleft,            none ] };
-	key <AC03> { [ e,          E,          braceright,           none ] };
-	key <AC04> { [ u,          U,          parenleft,            none ] };
-	key <AC05> { [ i,          I,          parenright,           none ] };
-	key <AC06> { [ d,          D,          bar,                  none ] };
+	key <AC02> { [ o,          O,          slash,            none ] };
+	key <AC03> { [ e,          E,          parenleft,           none ] };
+	key <AC04> { [ u,          U,          parenright,            none ] };
+	key <AC05> { [ i,          I,          braceleft,           none ] };
+	key <AC06> { [ d,          D,          braceright,                  none ] };
 	key <AC07> { [ h,          H,          underscore,           none ] };
 	key <AC08> { [ t,          T,          minus,                none ] };
-	key <AC09> { [ n,          N,          slash,             none ] };
-	key <AC10> { [ s,          S,                          none ] };
+	key <AC09> { [ n,          N,          less,             none ] };
+	key <AC10> { [ s,          S,          greater,               none ] };
 	key <AC11> { [ adiaeresis, Adiaeresis, braceright,           none  ] };
 
 	key <AB01> { [ bracketleft, bracketright, bracketright,      none ] };
