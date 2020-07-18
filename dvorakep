@@ -337,11 +337,11 @@ xkb_symbols "dvorak_ep" {
 	key <AD03> { [ comma,      semicolon,  semicolon,           none ] };
 	key <AD04> { [ p,          P,                  none ] };
 	key <AD05> { [ y,          Y,          dollar,              none ] };
-	key <AD06> { [ f,          F,          quotedbl,            none ] };
+	key <AD06> { [ f,          F,          bar,            none ] };
 	key <AD07> { [ g,          G,          question,            none ] };
 	key <AD08> { [ c,          C,          ampersand,           none ] };
-	key <AD09> { [ l,          L,                          none ] };
-	key <AD10> { [ r,          R,                       none ] };
+	key <AD09> { [ r,          R,          quotedbl,                 none ] };
+	key <AD10> { [ b,          B,                       none ] };
 	key <AD11> { [ aring,      Aring,                           none ] };
 	key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum  ]	}; #dead_diaeresis, dead_circumflex, dead_ailde
 
@@ -362,10 +362,10 @@ xkb_symbols "dvorak_ep" {
 	key <AB03> { [ j,          J,          at,                  none ] };
 	key <AB04> { [ k,          K,          exclam,              none ] };
 	key <AB05> { [ x,          X,          backslash,           none ] };
-	key <AB06> { [ b,          B,          percent,             none ] };
+	key <AB06> { [ v,          V,          percent,             none ] };
 	key <AB07> { [ m,          M,          grave,               none ] };
 	key <AB08> { [ w,          W,          asciitilde,             none ] };
-	key <AB09> { [ v,          V,          asciicircum, none ] };
+	key <AB09> { [ l,          L,          asciicircum, none ] };
 	key <AB10> { [ z,          Z,                 none ] };
 	key <BKSL> { [ odiaeresis, Odiaeresis,          none ] };
 };
