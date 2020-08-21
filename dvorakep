@@ -330,7 +330,7 @@ xkb_symbols "dvorak_ep" {
 
 	name[Group1]="Swedish (Dvorak ep)";
 
-	key <AE12> { [ dead_acute, dead_grave, plusminus,           none ] };
+	key <AE12> { [ dead_acute, dead_grave, grave,           none ] };
 
 	key <AD01> { [ apostrophe, asterisk,   asterisk,            none ] };
 	key <AD02> { [ period,     colon,      colon,               none ] };
