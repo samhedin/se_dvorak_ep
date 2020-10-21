@@ -22,6 +22,3 @@ setxkbmap se dvorak_ep
 
 ### Normal/Shift
 ![Layout l1](img/layout1.png "l1 layout")
-
-### TODO
-Make images not look like shit, preferably show all levels in one image.
