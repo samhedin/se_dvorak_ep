@@ -22,3 +22,52 @@ setxkbmap se dvorak_ep
 
 ### Normal/Shift
 ![Layout l1](img/layout1.png "l1 layout")
+
+### Dump
+
+partial alphanumeric_keys
+xkb_symbols "dvorak_ep" {
+
+	include "se(basic)"
+
+	name[Group1]="Swedish (Dvorak ep)";
+
+	key <AE12> { [ dead_acute, dead_grave, grave,           none ] };
+
+	key <AD01> { [ apostrophe, asterisk,   asterisk,            none ] };
+	key <AD02> { [ period,     colon,      colon,               none ] };
+	key <AD03> { [ comma,      semicolon,  semicolon,           none ] };
+	key <AD04> { [ p,          P,                  none ] };
+	key <AD05> { [ y,          Y,          dollar,              none ] };
+	key <AD06> { [ f,          F,          bar,            none ] };
+	key <AD07> { [ g,          G,          question,            none ] };
+	key <AD08> { [ c,          C,          ampersand,           none ] };
+	key <AD09> { [ r,          R,          quotedbl,                 none ] };
+	key <AD10> { [ z,          Z,                       none ] };
+	key <AD11> { [ aring,      Aring,                           none ] };
+	key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum  ]	}; #dead_diaeresis, dead_circumflex, dead_ailde
+
+	key <AC01> { [ a,          A,          numbersign,           none ] };
+	key <AC02> { [ o,          O,          slash,            none ] };
+	key <AC03> { [ e,          E,          parenleft,           none ] };
+	key <AC04> { [ u,          U,          parenright,            none ] };
+	key <AC05> { [ i,          I,          braceleft,           none ] };
+	key <AC06> { [ d,          D,          braceright,                  none ] };
+	key <AC07> { [ h,          H,          underscore,           none ] };
+	key <AC08> { [ t,          T,          minus,                none ] };
+	key <AC09> { [ n,          N,          less,             none ] };
+	key <AC10> { [ s,          S,          greater,               none ] };
+	key <AC11> { [ adiaeresis, Adiaeresis, braceright,           none  ] };
+
+	key <AB01> { [ bracketleft, bracketright, bracketright,      none ] };
+	key <AB02> { [ q,          Q,          equal,               none ] };
+	key <AB03> { [ j,          J,          at,                  none ] };
+	key <AB04> { [ k,          K,          exclam,              none ] };
+	key <AB05> { [ x,          X,          backslash,           none ] };
+	key <AB06> { [ b,          B,          percent,             none ] };
+	key <AB07> { [ m,          M,          grave,               none ] };
+	key <AB08> { [ w,          W,          asciitilde,             none ] };
+	key <AB09> { [ l,          L,          asciicircum, none ] };
+	key <AB10> { [ v,          V,                 none ] };
+	key <BKSL> { [ odiaeresis, Odiaeresis,          none ] };
+};
