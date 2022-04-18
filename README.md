@@ -1,7 +1,6 @@
 # Swedish dvorak: english programmer
 Dvorak layout for swedish programmers who mainly communicate in english, inspired by [svorak_a5](http://aoeu.info/s/dvorak/svorak)
 
-This layout will change a lot as I figure out what works and what doesn't.
 ## Installation
 It is easiest to overwrite the old layout file, but make a backup first! The layout file in this repo contains all other layouts already, so you won't lose anything.
 ``` bash
